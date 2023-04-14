@@ -49,6 +49,7 @@ const SignUpForm = () => {
     setFormFields({...formFields, [name]: value})
   }
   console.log(formFields);
+  
   return(
     <div className="sign-up-container">
       <h2>Don't have an account?</h2>
